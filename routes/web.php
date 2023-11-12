@@ -29,6 +29,7 @@ Route::get(
 
         // dot means joining two strings (string means a group of characters)
         // --------- --------
+        // I have added this line to demonstrate how to pull the code
         return "This is the sum of two numbers provided here: ".$number1 + $number2;
     }
 );
